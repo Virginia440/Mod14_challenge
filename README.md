@@ -66,8 +66,10 @@ In this section,  adjust the model’s input features to find the parameters tha
    
 
 ## Results
-SVM MODEL
+SVM MODEL (Plot of Cumulated Actual returns vs Strategy Returns)
+
 <img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/SVM%20model%20-Actual%20vs%20Strategy%20cumulative%20returns.PNG" width=500 height=300>
+
 
     *  Original model's results(SMA 4 and 100 and Dataset 3 months)
 <img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/Original%20model%20SMA%204%20and%20100%20report%2C%203mnths.PNG" width=500 height=300>
@@ -84,7 +86,8 @@ What impact resulted from increasing or decreasing the training window?
 
 What impact resulted from increasing or decreasing either or both of the SMA windows?
 
-LogisticsRegression MODEL
+LogisticsRegression MODEL ((Plot of Cumulated Actual returns vs Strategy Returns)
+
  <img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/Lr%20Model%20Actual%20vs%20Strategy%20cumulative%20returns.PNG" width=500 height=300>
 
  Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
