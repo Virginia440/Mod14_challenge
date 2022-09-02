@@ -66,29 +66,33 @@ In this section,  adjust the model’s input features to find the parameters tha
    
 
 ## Results
-SVM MODEL (Plot of Cumulated Actual returns vs Strategy Returns)
+**SVM MODEL (Plot of Cumulated Actual returns vs Strategy Returns)**
 
 <img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/SVM%20model%20-Actual%20vs%20Strategy%20cumulative%20returns.PNG" width=500 height=300>
 
 
-    *  Original model's results(SMA 4 and 100 and Dataset 3 months)
+    *  SVM Model- Classification Report(SMA-4 and 100 and Dataset-3 months)
 <img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/Original%20model%20SMA%204%20and%20100%20report%2C%203mnths.PNG" width=500 height=300>
    
 
-    *   Alternative Model 1 results(SMA 4 and 100 and Dataset 6 months)
+    *   Alternative SVM Model 1 results (SMA-4 and 100 and Dataset 6 months)
 <img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/Diff%20time%20period-%20%206months.PNG" width=500 height=300>
 
 What impact resulted from increasing or decreasing the training window?
    
 
-    *   Alternative Model 2 Results(SMA 50 and 100 and Dataset of 3 months)
+    *   Alternative SVM Model 2 results (SMA-50 and 100 and Dataset-3 months)
 <img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/Diff%20SMAs%2C%20SMA%2050%20and%20SMA%20100%20report.PNG" width=500 height=300>
 
 What impact resulted from increasing or decreasing either or both of the SMA windows?
 
-LogisticsRegression MODEL ((Plot of Cumulated Actual returns vs Strategy Returns)
+
+**LogisticsRegression MODEL ((Plot of Cumulated Actual returns vs Strategy Returns)**
 
  <img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/Lr%20Model%20Actual%20vs%20Strategy%20cumulative%20returns.PNG" width=500 height=300>
+
+    * LR Model- Classification Report(SMA-4 and 100 and Dataset-3 months)
+<img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/LR%20Model%20-Classification%20Report.PNG" width=500 height=300>
 
  Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
 ---
