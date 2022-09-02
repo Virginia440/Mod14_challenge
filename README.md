@@ -79,13 +79,13 @@ In this section,  adjust the model’s input features to find the parameters tha
 <img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/Diff%20time%20period-%20%206months.PNG" width=500 height=300>
 
 What impact resulted from increasing or decreasing the training window?
-   
+   An increased training window led to a lower accuracy in prediction. This is reflected by the recall (1.00 vs 0.69).
 
     *   Alternative SVM Model 2 results (SMA-50 and 100 and Dataset-3 months)
 <img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/Diff%20SMAs%2C%20SMA%2050%20and%20SMA%20100%20report.PNG" width=500 height=300>
 
 What impact resulted from increasing or decreasing either or both of the SMA windows?
-
+An increase in one of the SMAs, from 4 to 50, led to a decline in accuracy of predictions by almost 30% (1.00 vs 0.71)
 
 **LogisticsRegression MODEL ((Plot of Cumulated Actual returns vs Strategy Returns)**
 
@@ -94,13 +94,14 @@ What impact resulted from increasing or decreasing either or both of the SMA win
     * LR Model- Classification Report(SMA-4 and 100 and Dataset-3 months)
 <img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/LR%20Model%20-Classification%20Report.PNG" width=500 height=300>
 
- Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
+ Did this new model perform better or worse than the provided baseline model?  
+ Looking at the cumulated graphs of Actual returns vs Strategy returns of both the SVM model and LogisticsRegeression model, little to no difference is visible. However, classification reports indicate that the SVM model made 100% accurate predicions, compared to the LR model whose that was only 66% accurate as reflected in the recall values (1.00 vs 0.66). Hence the conclusion, SVM model performed better that the LR model.
 ---
 
 ## Summary
-Optimization of the model was tested by using different number of hidden layers for two of the models, and different epochs for two of the models.
-
-    
+-The SVM model performs a bit better than the logistic regression model since it has a higher accuracy score.
+-An increased training window led to a lower accuracy in prediction
+-An increase in one of the SMAs, from 4 to 50, led to a decline in accuracy of predictions  
 
 
 ## License
