@@ -94,8 +94,9 @@ An increase in one of the SMAs, from 4 to 50, led to a decline in accuracy of pr
     * LR Model- Classification Report(SMA-4 and 100 and Dataset-3 months)
 <img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/LR%20Model%20-Classification%20Report.PNG" width=500 height=300>
 
- Did this new model perform better or worse than the provided baseline model?  
- Looking at the cumulated graphs of Actual returns vs Strategy returns of both the SVM model and LogisticsRegeression model, little to no difference is visible. However, classification reports indicate that the SVM model made 100% accurate predicions, compared to the LR model whose that was only 66% accurate as reflected in the recall values (1.00 vs 0.66). Hence the conclusion, SVM model performed better that the LR model.
+Did this new model perform better or worse than the provided baseline model? 
+
+Looking at the cumulated graphs of Actual returns vs Strategy returns of both the SVM model and LogisticsRegeression model, little to no difference is visible. However, classification reports indicate that the SVM model made 100% accurate predicions, compared to the LR model whose that was only 66% accurate as reflected in the recall values (1.00 vs 0.66). Hence the conclusion, SVM model performed better that the LR model.
 ---
 
 ## Summary
