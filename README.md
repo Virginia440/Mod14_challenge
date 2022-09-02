@@ -72,7 +72,7 @@ In this section,  adjust the model’s input features to find the parameters tha
 
 
     *  SVM Model- Classification Report(SMA-4 and 100 and Dataset-3 months)
-<img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/Original%20model%20SMA%204%20and%20100%20report%2C%203mnths.PNG" width=500 height=300>
+<img src="https://github.com/Virginia440/Mod14_challenge/blob/main/Images/SVM%20Original%20Model%20-Classification%20Report.PNG" width=500 height=300>
    
 
     *   Alternative SVM Model 1 results (SMA-4 and 100 and Dataset 6 months)
